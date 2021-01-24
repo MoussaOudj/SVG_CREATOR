@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp
+iostream
+-
+cmath
+-
+fstream
+-
+string
+-
+algorithm
+-
+
