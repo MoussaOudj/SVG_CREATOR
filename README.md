@@ -1,10 +1,10 @@
 # SVG_CREATOR
 
 first commit : 
-*Création du projet 
-*Possible de dessiner un cercle, triangle ou rectangle
-*Choix couleur background du svg
-*Génération svg
+- Création du projet 
+- Possible de dessiner un cercle, triangle ou rectangle
+- Choix couleur background du svg
+- Génération svg
 
 
 
