@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>

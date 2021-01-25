@@ -143,6 +143,114 @@ SVG_CREATOR/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/build
 .PHONY : SVG_CREATOR/fast
 
+Point.o: Point.cpp.o
+
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+Shape/Circle.o: Shape/Circle.cpp.o
+
+.PHONY : Shape/Circle.o
+
+# target to build an object file
+Shape/Circle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o
+.PHONY : Shape/Circle.cpp.o
+
+Shape/Circle.i: Shape/Circle.cpp.i
+
+.PHONY : Shape/Circle.i
+
+# target to preprocess a source file
+Shape/Circle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.i
+.PHONY : Shape/Circle.cpp.i
+
+Shape/Circle.s: Shape/Circle.cpp.s
+
+.PHONY : Shape/Circle.s
+
+# target to generate assembly for a file
+Shape/Circle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.s
+.PHONY : Shape/Circle.cpp.s
+
+Shape/Rect.o: Shape/Rect.cpp.o
+
+.PHONY : Shape/Rect.o
+
+# target to build an object file
+Shape/Rect.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o
+.PHONY : Shape/Rect.cpp.o
+
+Shape/Rect.i: Shape/Rect.cpp.i
+
+.PHONY : Shape/Rect.i
+
+# target to preprocess a source file
+Shape/Rect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.i
+.PHONY : Shape/Rect.cpp.i
+
+Shape/Rect.s: Shape/Rect.cpp.s
+
+.PHONY : Shape/Rect.s
+
+# target to generate assembly for a file
+Shape/Rect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.s
+.PHONY : Shape/Rect.cpp.s
+
+Shape/Triangle.o: Shape/Triangle.cpp.o
+
+.PHONY : Shape/Triangle.o
+
+# target to build an object file
+Shape/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o
+.PHONY : Shape/Triangle.cpp.o
+
+Shape/Triangle.i: Shape/Triangle.cpp.i
+
+.PHONY : Shape/Triangle.i
+
+# target to preprocess a source file
+Shape/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.i
+.PHONY : Shape/Triangle.cpp.i
+
+Shape/Triangle.s: Shape/Triangle.cpp.s
+
+.PHONY : Shape/Triangle.s
+
+# target to generate assembly for a file
+Shape/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.s
+.PHONY : Shape/Triangle.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +287,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SVG_CREATOR"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
+	@echo "... Shape/Circle.o"
+	@echo "... Shape/Circle.i"
+	@echo "... Shape/Circle.s"
+	@echo "... Shape/Rect.o"
+	@echo "... Shape/Rect.i"
+	@echo "... Shape/Rect.s"
+	@echo "... Shape/Triangle.o"
+	@echo "... Shape/Triangle.i"
+	@echo "... Shape/Triangle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

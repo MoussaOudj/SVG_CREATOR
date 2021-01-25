@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h
+../Point.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+fstream
+-
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h
+fstream
+-
+../Point.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h
+fstream
+-
+../Point.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp
 iostream
 -
@@ -17,4 +37,12 @@ string
 -
 algorithm
 -
+Point.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+Shape/Circle.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h
+Shape/Rect.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h
+Shape/Triangle.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h
 

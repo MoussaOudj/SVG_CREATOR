@@ -4,27 +4,14 @@
 #include <string>
 #include <algorithm>
 
+#include "Point.h"
+#include "Shape/Circle.h"
+#include "Shape/Rect.h"
+#include "Shape/Triangle.h"
+
+
 using namespace std;
-
-void fill(ofstream &output) {
-    output << " fill='rgb(" << rand() % 256 << "," << rand() % 256 << "," << rand() % 256 << ")'/>" << endl;
-}
-
-void rect(ofstream &output) {
-    output << "<rect x='" << 40 << "' y='" << 40 << "' width='" << 20 << "' height='" << 20 << "'";
-    fill(output);
-}
-
-void circle(ofstream &output) {
-    output << "<circle cx='" << 20 << "' cy='" << 20 << "' r='" << 20 << "'";
-    fill(output);
-}
-
-void triangle(ofstream &output) {
-    output << "<polygon points='" << 100 << "," << 30 << " " << 200 << "," << 200 << " " << 0 << "," << 200 << "'";
-    fill(output);
-}
-
+void drawShapeIn(ofstream &output);
 
 void background(ofstream &output, string color, double size) {
     output << "<svg xmlns='http://www.w3.org/2000/svg'"
@@ -47,40 +34,18 @@ void background(ofstream &output, string color, double size) {
     }
 }
 
-void generateSVG(string backgroundColor, double size, int shape) {
+void generateSVG(string backgroundColor, double size) {
     ofstream output;
     output.open("art.svg");
     background(output, backgroundColor, size);
-
-    switch (shape) {
-        case 1 :
-            cout << "Dessine un carrée" << endl;
-            rect(output);
-            break;
-        case 2 :
-            cout << "Dessine un cercle" << endl;
-            circle(output);
-            break;
-        case 3 :
-            cout << "Dessine un triangle" << endl;
-            triangle(output);
-            break;
-        default:
-            break;
-
-    }
-    fill(output);
-    output << "</svg>" << endl;
-    output.close();
+    drawShapeIn(output);
 }
-
 
 int main() {
     std::cout << "SVG CREATOR - PROJET ESGI" << std::endl;
     std::cout << "Moussa OUDJAMA / Yannis MEKAOUCHE" << std::endl;
 
     double size;
-    int shape;
     string backgroundColor;
     ofstream output;
 
@@ -94,14 +59,93 @@ int main() {
          << "White" << endl
          << "Black" << endl;
     cin >> backgroundColor;
+    generateSVG(backgroundColor, size);
+    return 0;
+}
 
+void drawShapeIn(ofstream &output){
+    int input_x;
+    int input_y;
+
+    int shape;
     cout << "Forme : " << endl
-         << "1 - Carée" << endl
+         << "1 - Rectangle" << endl
          << "2 - Cercle" << endl
          << "3 - Triangle" << endl;
     cin >> shape;
 
-    generateSVG(backgroundColor, size, shape);
+    switch (shape) {
+        case 1 : {
+            int input_width;
+            int input_height;
+            cout << "Dessine un rectangle" << endl;
+            Rect rect;
+            rect = Rect();
+            cout << "Position x du rectangle : " << endl;
+            cin >> input_x;
+            cout << "Position y du rectangle : " << endl;
+            cin >> input_y;
+            rect.setPosition(Point(input_x,input_y));
+            cout << "Longueur du rectangle : " << endl;
+            cin >> input_height;
+            cout << "Largeur du rectangle : " << endl;
+            cin >> input_width;
+            rect.setWidth(input_width);
+            rect.setHeight(input_height);
 
-    return 0;
+            rect.drawIn(output);
+            break;
+        }
+        case 2 : {
+            int input_r;
+            cout << "Dessine un cercle" << endl;
+            Circle circle;
+            circle = Circle();
+            cout << "Position x du cercle : " << endl;
+            cin >> input_x;
+            cout << "Position y du cercle : " << endl;
+            cin >> input_y;
+            circle.setCenter(Point(input_x,input_y));
+            cout << "rayon du cercle : " << endl;
+            cin >> input_r;
+            circle.setRadius(input_r);
+
+            circle.drawIn(output);
+            break;
+        }
+        case 3 : {
+            cout << "Dessine un triangle" << endl;
+            Triangle triangle;
+            triangle = Triangle();
+            cout << "Position x du triangle : " << endl;
+            cin >> input_x;
+            cout << "Position y du triangle : " << endl;
+            cin >> input_y;
+            triangle.setPosition(Point(input_x,input_y));
+            triangle.drawIn(output);
+            break;
+        }
+        default:
+            break;
+    }
+
+    int choix;
+    cout << "Redessiner une forme ?" << endl
+         << "1- Oui" << endl
+         << "2- Non" << endl;
+    cin >> choix;
+
+    switch (choix){
+        case 1: {
+            drawShapeIn(output);
+            break;
+        }
+        case 2: {
+            output << "</svg>" << endl;
+            output.close();
+            break;
+        }
+        default:
+            break;
+    }
 }
