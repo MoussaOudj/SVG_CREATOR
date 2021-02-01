@@ -5,21 +5,17 @@
 #ifndef SVG_CREATOR_CIRCLE_H
 #define SVG_CREATOR_CIRCLE_H
 #include "../Point.h"
+#include "Shape.h"
 #include <fstream>
 
-class Circle{
+class Circle: public Shape{
 public:
     Circle();
-    Circle(float x, float y, float radius);
     void drawIn(std::ofstream &output);
-
-    void setCenter(Point point);
-    Point getCenter();
     void setRadius(float radius);
     float getRadius();
 
 private:
-    Point m_center;
     float m_radius;
 };
 

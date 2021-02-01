@@ -7,19 +7,13 @@
 
 #include <fstream>
 #include "../Point.h"
+#include "Shape.h"
 
 
-class Triangle {
+class Triangle: public Shape {
 
 public:
     Triangle();
-    Triangle(float x, float y);
     void drawIn(std::ofstream &output);
-    void setPosition(Point point);
-    Point getPosition();
-private:
-    Point m_point;
 };
-
-
 #endif //SVG_CREATOR_TRIANGLE_H

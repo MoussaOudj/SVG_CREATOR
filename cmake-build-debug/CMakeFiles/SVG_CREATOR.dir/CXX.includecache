@@ -6,25 +6,57 @@
 
 #IncludeRegexTransform: 
 
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp
+Point.h
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp
+Circle.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h
+fstream
+-
 
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h
 ../Point.h
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+Shape.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h
 fstream
 -
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp
+Rect.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h
 
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h
 fstream
 -
 ../Point.h
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+Shape.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.cpp
+Shape.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h
+../Point.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp
+Triangle.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h
 
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h
 fstream
 -
 ../Point.h
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h
+Shape.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h
 
 /Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp
 iostream

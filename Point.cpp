@@ -13,26 +13,8 @@ Point::Point(float x, float y){
     this->m_y = y;
 }
 
-void Point::add(Point point){
-    this->m_x += point.getX();
-    this->m_y += point.getY();
-}
-
-void Point::scale(float scalingValue){
-    this->m_x *= scalingValue;
-    this->m_y *= scalingValue;
-}
-
-void Point::setX(float x){
-    this->m_x = x;
-}
-
 float Point::getX(){
     return this->m_x;
-}
-
-void Point::setY(float y){
-    this->m_y = y;
 }
 
 float Point::getY(){

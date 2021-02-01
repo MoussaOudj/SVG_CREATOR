@@ -224,6 +224,33 @@ Shape/Rect.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.s
 .PHONY : Shape/Rect.cpp.s
 
+Shape/Shape.o: Shape/Shape.cpp.o
+
+.PHONY : Shape/Shape.o
+
+# target to build an object file
+Shape/Shape.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.o
+.PHONY : Shape/Shape.cpp.o
+
+Shape/Shape.i: Shape/Shape.cpp.i
+
+.PHONY : Shape/Shape.i
+
+# target to preprocess a source file
+Shape/Shape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.i
+.PHONY : Shape/Shape.cpp.i
+
+Shape/Shape.s: Shape/Shape.cpp.s
+
+.PHONY : Shape/Shape.s
+
+# target to generate assembly for a file
+Shape/Shape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SVG_CREATOR.dir/build.make CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.s
+.PHONY : Shape/Shape.cpp.s
+
 Shape/Triangle.o: Shape/Triangle.cpp.o
 
 .PHONY : Shape/Triangle.o
@@ -296,6 +323,9 @@ help:
 	@echo "... Shape/Rect.o"
 	@echo "... Shape/Rect.i"
 	@echo "... Shape/Rect.s"
+	@echo "... Shape/Shape.o"
+	@echo "... Shape/Shape.i"
+	@echo "... Shape/Shape.s"
 	@echo "... Shape/Triangle.o"
 	@echo "... Shape/Triangle.i"
 	@echo "... Shape/Triangle.s"

@@ -6,20 +6,19 @@
 #define SVG_CREATOR_RECT_H
 #include <fstream>
 #include "../Point.h"
+#include "Shape.h"
 
-class Rect {
+
+class Rect: public Shape {
 public:
     Rect();
     Rect(float x, float y, int width, int height);
     void drawIn(std::ofstream &output);
-    void setPosition(Point point);
-    Point getPosition();
     void setWidth(int width);
     int getWidth();
     void setHeight(int height);
     int getHeight();
 private:
-    Point m_point;
     int width, height;
 };
 
