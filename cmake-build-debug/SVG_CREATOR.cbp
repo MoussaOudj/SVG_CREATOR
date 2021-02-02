@@ -98,9 +98,6 @@
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.cpp">
-			<Option target="SVG_CREATOR"/>
-		</Unit>
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
@@ -108,6 +105,12 @@
 			<Option target="SVG_CREATOR"/>
 		</Unit>
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp">

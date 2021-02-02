@@ -14,19 +14,19 @@ CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o: ../Shape/Rect.cpp
 CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o: ../Shape/Rect.h
 CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o: ../Shape/Shape.h
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.o: ../Point.h
-CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.o: ../Shape/Shape.cpp
-CMakeFiles/SVG_CREATOR.dir/Shape/Shape.cpp.o: ../Shape/Shape.h
-
 CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: ../Point.h
 CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: ../Shape/Shape.h
 CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: ../Shape/Triangle.cpp
 CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: ../Shape/Triangle.h
 
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../Point.h
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../Shape/Circle.h
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../Shape/Rect.h
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../Shape/Shape.h
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../Shape/Triangle.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../Point.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../Shape/Circle.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../Shape/Rect.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../Shape/Shape.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../Shape/Triangle.h
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../SvgCreator.cpp
+CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../SvgCreator.h
+
+CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../SvgCreator.h
 CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../main.cpp
 

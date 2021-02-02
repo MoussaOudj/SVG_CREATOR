@@ -17,7 +17,13 @@ commit 01/02 :
 - Héritage Classe Shape avec les formes Triangle, Circle, Rectangle
 - Gestion exception à l'input de la forme
 
+commit 02/02 : 
+- Ajout classe SVGCreator qui implémente la logique de creation d'un SVG
+- Modification menu pour avoir la possibilitée de lire un ficher svg ou d'en crée un
+- Possibilité de mettre le nom du fichier svg à la création
+
 
 A faire : 
 - Création de nouvelles formes du genre étoiles, polygones etc ?
-- Création d'une classe SVGGenerator qui encapsule tout nos fonctions pour avoir un main moins verbeux ?
+- Mettre la notion de liste avec un STL (voir vector), pour pouvoir stocker les formes avant de dessiner
+- Voir comment modfier un SVG.
