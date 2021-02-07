@@ -80,40 +80,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/Circle.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/Point.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/Rect.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/Shape.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgCreator.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgReader.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Shape.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/Triangle.h">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Circle.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Point.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Rect.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.h">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgCreator.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
-		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp">
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgReader.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Triangle.cpp">
+			<Option target="SVG_CREATOR"/>
+		</Unit>
+		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/main.cpp">
 			<Option target="SVG_CREATOR"/>
 		</Unit>
 		<Unit filename="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/CMakeLists.txt">

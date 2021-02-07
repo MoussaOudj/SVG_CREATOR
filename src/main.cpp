@@ -1,13 +1,11 @@
 #include <iostream>
 #include "../headers/SvgCreator.h"
-
-
-#include <fstream>
-
+#include "../headers/SvgReader.h"
 
 using namespace std;
 
 void createSVG();
+void readSVG();
 
 int main() {
 
@@ -25,14 +23,7 @@ int main() {
             createSVG();
             break;
         case 2:
-            string filename;
-            cout << "Nom du fichier" << endl;
-            cin >> filename;
-            ifstream infile(filename+".svg");
-            for( std::string line; getline( infile, line );)
-            {
-                cout << line << endl;
-            }
+            readSVG();
             break;
     }
 
@@ -60,7 +51,39 @@ void createSVG() {
     cin >> backgroundColor;
 
     svgCreator.setBackground(backgroundColor);
-
     svgCreator.prepareOutput();
     svgCreator.create();
+}
+
+void readSVG(){
+    string filename;
+    cout << "Nom du fichier" << endl;
+    cin >> filename;
+    SvgReader svgReader = SvgReader();
+    svgReader.setFilename(filename);
+    svgReader.read();
+
+    int choix;
+    cout << "Voulez vous apporter une modification au fichier ?" << endl
+         << "1- Supprimer élements" << endl
+         << "2- Modifier élements" << endl
+         << "3- Non" << endl;
+    cin >> choix;
+
+
+    switch (choix) {
+        case 1:
+            int line;
+            cout << "Quelle ligne ?" << endl;
+            cin >> line;
+            svgReader.remove(line);
+            break;
+        case 2:
+            cout << "Feature non ajoutée " << endl;
+            break;
+        case 3:
+            cout << "FIN" << endl;
+            break;
+    }
+
 }

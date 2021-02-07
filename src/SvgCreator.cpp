@@ -19,18 +19,15 @@ void SvgCreator::setDimension(double dimension) {
     this->dimension = dimension;
 }
 
-
 void SvgCreator::setBackground(string bg) {
     this->backgroundColor = bg;
 }
-
 
 void SvgCreator::prepareOutput() {
 
     string filename;
     cout << "Nom du fichier :" << endl;
     cin >> filename;
-
     this->output.open(filename + ".svg");
 
     this->output << "<svg xmlns='http://www.w3.org/2000/svg'"

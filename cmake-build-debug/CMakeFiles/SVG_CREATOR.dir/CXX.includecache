@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgCreator.h
 fstream
 -
 iostream
-/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/iostream
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/iostream
 
-/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgReader.h
+iostream
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/iostream
+vector
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/vector
+
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/main.cpp
 iostream
 -
-SvgCreator.h
-/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.h
-fstream
--
+../headers/SvgCreator.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgCreator.h
+../headers/SvgReader.h
+/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/headers/SvgReader.h
 

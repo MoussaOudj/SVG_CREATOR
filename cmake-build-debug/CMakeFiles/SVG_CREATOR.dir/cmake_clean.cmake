@@ -1,10 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SVG_CREATOR.dir/Point.cpp.o"
-  "CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o"
-  "CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o"
-  "CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o"
-  "CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o"
-  "CMakeFiles/SVG_CREATOR.dir/main.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o"
+  "CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o"
   "SVG_CREATOR"
   "SVG_CREATOR.pdb"
 )

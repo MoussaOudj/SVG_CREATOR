@@ -77,105 +77,120 @@ include CMakeFiles/SVG_CREATOR.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SVG_CREATOR.dir/flags.make
 
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SVG_CREATOR.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/main.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/main.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp" > CMakeFiles/SVG_CREATOR.dir/main.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/main.cpp" > CMakeFiles/SVG_CREATOR.dir/src/main.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/main.cpp" -o CMakeFiles/SVG_CREATOR.dir/main.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/main.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/main.cpp.s
 
-CMakeFiles/SVG_CREATOR.dir/Point.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SVG_CREATOR.dir/Point.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/Point.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o: ../src/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Point.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/Point.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/Point.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp" > CMakeFiles/SVG_CREATOR.dir/Point.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Point.cpp" > CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/Point.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/Point.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Point.cpp" -o CMakeFiles/SVG_CREATOR.dir/Point.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Point.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.s
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o: ../Shape/Circle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o: ../src/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Circle.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp" > CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Circle.cpp" > CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Circle.cpp" -o CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Circle.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.s
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o: ../Shape/Rect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o: ../src/Rect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Rect.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp" > CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Rect.cpp" > CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Rect.cpp" -o CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Rect.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.s
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o: ../Shape/Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o: ../src/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Triangle.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp" > CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Triangle.cpp" > CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/Shape/Triangle.cpp" -o CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/Triangle.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.s
 
-CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
-CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o: ../SvgCreator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.cpp"
+CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o: ../src/SvgCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgCreator.cpp"
 
-CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.cpp" > CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.i
+CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgCreator.cpp" > CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.i
 
-CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/SvgCreator.cpp" -o CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.s
+CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgCreator.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.s
+
+CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o: CMakeFiles/SVG_CREATOR.dir/flags.make
+CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o: ../src/SvgReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o -c "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgReader.cpp"
+
+CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgReader.cpp" > CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.i
+
+CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/src/SvgReader.cpp" -o CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.s
 
 # Object files for target SVG_CREATOR
 SVG_CREATOR_OBJECTS = \
-"CMakeFiles/SVG_CREATOR.dir/main.cpp.o" \
-"CMakeFiles/SVG_CREATOR.dir/Point.cpp.o" \
-"CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o" \
-"CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o" \
-"CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o" \
-"CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o"
+"CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o" \
+"CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o"
 
 # External object files for target SVG_CREATOR
 SVG_CREATOR_EXTERNAL_OBJECTS =
 
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/main.cpp.o
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/Point.cpp.o
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/Shape/Circle.cpp.o
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/Shape/Rect.cpp.o
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/Shape/Triangle.cpp.o
-SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/SvgCreator.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/main.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/Point.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/Circle.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/Rect.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/Triangle.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/SvgCreator.cpp.o
+SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/src/SvgReader.cpp.o
 SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/build.make
 SVG_CREATOR: CMakeFiles/SVG_CREATOR.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable SVG_CREATOR"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/moudjama/Desktop/Ecole/Programmation C++/SVG_CREATOR/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SVG_CREATOR"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SVG_CREATOR.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
