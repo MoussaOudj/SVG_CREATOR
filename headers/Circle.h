@@ -4,7 +4,7 @@
 
 #ifndef SVG_CREATOR_CIRCLE_H
 #define SVG_CREATOR_CIRCLE_H
-#include "../Point.h"
+#include "Point.h"
 #include "Shape.h"
 #include <fstream>
 

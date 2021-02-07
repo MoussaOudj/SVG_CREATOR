@@ -2,12 +2,12 @@
 // Created by OUDJAMA Moussa (Canal Plus) on 02/02/2021.
 //
 
-#include "SvgCreator.h"
+#include "../headers/SvgCreator.h"
 #include "iostream"
-#include "Shape/Shape.h"
-#include "Shape/Triangle.h"
-#include "Shape/Circle.h"
-#include "Shape/Rect.h"
+#include "../headers/Shape.h"
+#include "../headers/Triangle.h"
+#include "../headers/Circle.h"
+#include "../headers/Rect.h"
 
 using namespace std;
 

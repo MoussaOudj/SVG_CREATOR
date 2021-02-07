@@ -1,2 +1,5 @@
-# SVG_CREATOR - README
+# SVG_CREATOR
+
+# Setup
+
 

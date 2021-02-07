@@ -5,7 +5,7 @@
 #ifndef SVG_CREATOR_RECT_H
 #define SVG_CREATOR_RECT_H
 #include <fstream>
-#include "../Point.h"
+#include "Point.h"
 #include "Shape.h"
 
 

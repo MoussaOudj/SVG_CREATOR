@@ -4,7 +4,7 @@
 
 #ifndef SVG_CREATOR_SHAPE_H
 #define SVG_CREATOR_SHAPE_H
-#include "../Point.h"
+#include "Point.h"
 
 class Shape {
     public:

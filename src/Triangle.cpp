@@ -2,7 +2,7 @@
 // Created by OUDJAMA Moussa (Canal Plus) on 25/01/2021.
 //
 
-#include "Triangle.h"
+#include "../headers/Triangle.h"
 
 Triangle::Triangle(){
 }

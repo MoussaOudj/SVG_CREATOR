@@ -2,7 +2,7 @@
 // Created by OUDJAMA Moussa (Canal Plus) on 25/01/2021.
 //
 
-#include "Point.h"
+#include "../headers/Point.h"
 Point::Point(){
     this->m_x = 1;
     this-> m_y = 1;

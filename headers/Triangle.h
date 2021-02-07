@@ -6,7 +6,7 @@
 #define SVG_CREATOR_TRIANGLE_H
 
 #include <fstream>
-#include "../Point.h"
+#include "Point.h"
 #include "Shape.h"
 
 
