@@ -3,4 +3,4 @@ project(SVG_CREATOR)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(SVG_CREATOR main.cpp Point.cpp Point.h Shape/Circle.cpp Shape/Circle.h Shape/Rect.cpp Shape/Rect.h Shape/Triangle.cpp Shape/Triangle.h Shape/Shape.h SvgCreator.cpp SvgCreator.h)
+add_executable(SVG_CREATOR src/main.cpp src/Point.cpp headers/Point.h src/Circle.cpp headers/Circle.h src/Rect.cpp headers/Rect.h src/Triangle.cpp headers/Triangle.h headers/Shape.h src/SvgCreator.cpp headers/SvgCreator.h)
