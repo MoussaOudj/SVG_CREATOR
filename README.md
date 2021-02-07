@@ -1,5 +1,7 @@
 # SVG_CREATOR
 
-# Setup
+## Setup
 
+`cmake .`
 
+`make`
